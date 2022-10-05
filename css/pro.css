@@ -1,0 +1,41 @@
+body{
+  background-color: rgb(167, 230, 255);
+}
+
+.aa {
+  display:inline-block;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: #232323;
+  background: #fff8e8;
+  border-left: solid 10px #ffc06e;
+  border-radius: 20px;/*角の丸み*/
+}
+.aa {
+  margin: 0; 
+  padding: 0;
+}
+
+.my-3 {
+  display:inline-block;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  background-color: #ffffff;
+  color: #ff0000;
+  }
+
+  .war {
+    display:inline-block;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #232323;
+    background: #41b65a;
+    border-left: solid 10px #c1e06a;
+    border-right: solid 10px #c1e06a;
+    border-radius: 20px;/*角の丸み*/
+  }
+    .war {
+      margin: 0; 
+      padding: 0;
+    }
+  
