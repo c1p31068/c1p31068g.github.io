@@ -38,7 +38,18 @@
           print(f'【{datetime.now()}】: Pythonで出力！')
       </py-script>
         
-       <py-script src="./detect.py"></py-script>
+        <input type="button" id='script' name="scriptbutton" value=" Run Script " onclick="goPython()">
+        
+        <script>
+        function goPython(){
+            $.ajax({
+              url: "MYSCRIPT.py",
+             context: document.body
+            }).done(function() {
+             alert('finished python script');;
+            });
+        }
+        </script>
         
               <div class="container">
             <div class="carousel slide" id="sample" data-ride="carousel">
