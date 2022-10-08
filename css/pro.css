@@ -2,6 +2,12 @@ body{
   background-color: rgb(167, 230, 255);
 }
 
+header{
+  background-color: black; 
+  height: 300px;
+  width: auto;
+}
+
 .aa {
   display:inline-block;
   padding: 0.5em 1em;
